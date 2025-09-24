@@ -129,36 +129,51 @@ click bagian yang di tandai untuk berpindah ke halaman lain
 <img src="tampilan.png" width="700">
 
 
-##  PERTANYAAN PRAKTIKUM
+##  PERTANYAAN PRAKTIKUM & JAWABANNYA 
 
-1. Adakah error ketika terjadi kesalahan penulisan tag?
+Oke, aku buatkan versi **jawaban yang sama tapi dengan kata-kata berbeda** supaya tetap jelas, namun tidak terkesan copy–paste.
 
-2. Apa perbedaan tag `<p>` dengan `<br>`?
+---
 
-3. Apa perbedaan atribut `title` dan `alt` pada tag `<img>`?
+## **JAWABAN PRAKTIKUM (Versi dengan kata berbeda)**
 
-4. Agar proporsional, sebaiknya atribut width dan height diisi semua atau tidak? Jelaskan.
+**1. Adakah error ketika terjadi kesalahan penulisan tag?**
+Jika ada kesalahan dalam penulisan tag HTML (misalnya `<pp>` bukannya `<p>` atau tag tidak ditutup), browser tidak langsung menampilkan pesan error seperti di bahasa pemrograman. Browser biasanya tetap menampilkan halaman, tetapi hasil tampilannya bisa **berantakan** atau tidak sesuai struktur yang diinginkan.
 
-5. Apa perbedaan atribut `target` dengan nilai `_blank`, `_self`, `_top`, dan `_parent`?
+---
 
-## JAWABAN PRAKTIKUM
+**2. Apa perbedaan tag `<p>` dengan `<br>`?**
 
-1. Jika terjadi kesalahan penulisan tag HTML (misal: `<pp>` bukan `<p>`, atau tag tidak ditutup), biasanya tampilannya jadi aneh. Bukan error kayak di bahasa pemrograman yang langsung berhenti, tapi hasil tampilan di browser bisa berantakan atau nggak sesuai yang kita maksud. Jadi browser tetep nampilin, cuma strukturnya bisa kacau.
+* `<p>` → berfungsi untuk membuat **paragraf baru**, dengan jarak cukup lebar di atas dan bawah teks.
+* `<br>` → hanya digunakan untuk **pindah ke baris berikutnya** tanpa menambah jarak seperti paragraf.
+  Umumnya `<p>` dipakai untuk teks panjang (artikel, laporan), sedangkan `<br>` cocok untuk teks berformat khusus (puisi, alamat).
 
-2. `<p>` dipakai buat bikin paragraf baru, jadi ada jarak atas-bawah yang cukup jelas.
-`<br>` dipakai buat bikin baris baru aja, tanpa jarak besar seperti paragraf.
-Contoh: kalau nulis puisi atau alamat, biasanya pakai `<br>`, kalau nulis teks artikel biasanya pakai `<p>`.
+---
 
-3. `alt` itu teks alternatif, muncul kalau gambar gagal dimuat, dan juga penting buat aksesibilitas (misalnya dibaca sama screen reader).
-`title` itu kayak tooltip, muncul kalau kita arahkan kursor ke gambar.
-Jadi fungsi utamanya beda: `alt` lebih ke pengganti gambar, `title` lebih ke keterangan tambahan.
+**3. Apa perbedaan atribut `title` dan `alt` pada tag `<img>`?**
 
-4. Kalau mau tetap proporsional, sebaiknya isi salah satu aja (misalnya width` aja atau `height` aja). Kalau isi dua-duanya tapi nggak sesuai rasio asli gambar, hasilnya bisa gepeng atau melebar. Jadi cara aman: isi salah satu, biar browser otomatis sesuaikan sisi lainnya.
+* `alt` → adalah teks alternatif yang muncul jika gambar tidak bisa ditampilkan, serta digunakan oleh pembaca layar untuk membantu pengguna disabilitas.
+* `title` → adalah keterangan tambahan yang muncul saat kursor diarahkan ke gambar (tooltip).
 
-5. `_blank` → buka link di tab/jendela baru.
+👉 Jadi, `alt` penting untuk **pengganti isi gambar**, sementara `title` lebih ke **informasi tambahan bagi pengguna**.
 
-   `_self` → buka link di tab/jendela yang sama (default).
+---
 
-   `_top` → buka link di jendela penuh, nutup semua frame kalau ada.
+**4. Agar proporsional, sebaiknya atribut `width` dan `height` diisi semua atau tidak? Jelaskan.**
+Untuk menjaga ukuran gambar tetap seimbang:
 
-   `_parent` → buka link di frame induk (kalau ada struktur frame).
+* Lebih aman hanya mengisi **salah satu atribut saja** (`width` atau `height`), sehingga browser otomatis menyesuaikan sisi lainnya.
+* Jika mengisi keduanya, ukurannya harus sesuai dengan perbandingan asli gambar. Jika tidak, gambar bisa terlihat **distorsi** (terlalu melebar atau gepeng).
+
+---
+
+**5. Apa perbedaan atribut `target` dengan nilai `_blank`, `_self`, `_top`, dan `_parent`?**
+
+* `_blank` → link terbuka di tab/jendela baru.
+* `_self` → link terbuka di tab/jendela yang sama (nilai default).
+* `_top` → link terbuka di jendela utama, menutup semua frame jika ada.
+* `_parent` → link terbuka di frame induk (jika halaman berada di dalam frame).
+
+---
+
+Mau aku bikinkan juga **versi tabel Pertanyaan & Jawaban di Word** biar lebih rapi untuk laporanmu?
