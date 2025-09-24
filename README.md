@@ -1,8 +1,8 @@
 # Lab1Web.
 
 # Pratikum 1 - HTML Dasar
-### NAMA : M. Ridho Febrian
-### NIM : 312410500
+### NAMA : Richie Pranata
+### NIM : 312410451
 ### KELAS : TI.24.A5
 
 ## 📍LANGKAH - LANGKAH PENGERJAAN
